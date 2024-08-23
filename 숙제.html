@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        body {    
+            display: grid;
+            place-items: center;
+        }
+        h5{
+            padding:10px;
+            border-bottom:solid rgb(132, 132, 132) 1px;
+        }
+       
+        .slider-wrapper {
+            width: 200px;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 600px;
+            height:267px;
+            transition: transform 0.5s ease-in-out;
+            
+        }
+
+        .img {
+            width: 200px;
+            float: left;
+        }
+
+        .img img {
+            width: 100%;
+        }
+        
+        .btn1{
+            margin-left:180px;
+        }
+    </style>
+    <script src="숙제js.js" defer></script>
+</head>
+
+<body>
+
+    <div class="box">
+        <h5>" "님의 갤러리</h5>
+        <div class="slider-wrapper">
+            <div class="container">
+                <div class="img">
+                    <a href="1.html"><img src="1.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="2.html"><img src="2.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="3.html"><img src="3.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <button class="btn1">></button>
+    </div>
+
+
+
+</body>
+
+</html>
